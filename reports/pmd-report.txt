@@ -1,0 +1,12 @@
+src/main/java/com/espol/edu/PaqueteVacacional.java:10:	ImmutableField:	ImmutableField: Field 'costo_base' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:11:	ImmutableField:	ImmutableField: Field 'umbral_descuento_grupo1' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:12:	ImmutableField:	ImmutableField: Field 'umbral_descuento_grupo2' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:13:	ImmutableField:	ImmutableField: Field 'tamano_max_grupo' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:14:	ImmutableField:	ImmutableField: Field 'descuento_grupo1' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:15:	ImmutableField:	ImmutableField: Field 'descuento_grupo2' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:16:	ImmutableField:	ImmutableField: Field 'duracion_penalizacion' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:17:	ImmutableField:	ImmutableField: Field 'duracion_promocional' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:18:	ImmutableField:	ImmutableField: Field 'cantidad_pasajeros_promocional' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:19:	ImmutableField:	ImmutableField: Field 'tarifa_penalizacion' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:20:	ImmutableField:	ImmutableField: Field 'descuento_promocional' may be declared final
+src/main/java/com/espol/edu/PaqueteVacacional.java:21:	ImmutableField:	ImmutableField: Field 'costo_lugares_turisticos' may be declared final

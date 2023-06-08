@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Joaquin Rules"
+ xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0
+https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+ <description>
+ Code Inspection Lab, Joaquin Rivadeneira
+ </description>
+ <rule ref="category/java/performance.xml" />
+ <rule ref="category/java/bestpractices.xml">
+    <exclude name="SystemPrintln" />
+ </rule>
+ <rule ref="category/java/design.xml/ImmutableField" />
+ <rule ref="category/java/codestyle.xml/ClassNamingConventions" />
+ <rule ref="category/java/errorprone.xml/UseLocaleWithCaseConversions" />
+ <rule ref="category/java/documentation.xml/CommentRequired">
+    <properties>
+        <property name="classCommentRequirement" value="Ignored" />
+        <property name="headerCommentRequirement" value="Ignored" />
+        <property name="fieldCommentRequirement" value="Ignored" />
+    </properties>
+ </rule>
+</ruleset>
